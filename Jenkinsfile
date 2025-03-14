@@ -14,7 +14,6 @@ pipeline {
             steps {
                 script {
                     sh './PES2UG22CS372' 
-                    error
                 }
             }
         }
